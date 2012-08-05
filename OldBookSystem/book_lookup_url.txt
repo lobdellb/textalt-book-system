@@ -1,0 +1,1 @@
+http://iupui.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&storeId=36052&langId=-1&productId=500000963418&sectionId=35242569&item=Y

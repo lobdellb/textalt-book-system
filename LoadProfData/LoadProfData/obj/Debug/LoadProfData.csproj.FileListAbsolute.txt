@@ -1,0 +1,12 @@
+C:\Users\lobdellb\bookstore_software\LoadProfData\LoadProfData\bin\Debug\LoadProfData.exe
+C:\Users\lobdellb\bookstore_software\LoadProfData\LoadProfData\bin\Debug\LoadProfData.pdb
+C:\Users\lobdellb\bookstore_software\LoadProfData\LoadProfData\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\bookstore_software\LoadProfData\LoadProfData\obj\Debug\LoadProfData.exe
+C:\Users\lobdellb\bookstore_software\LoadProfData\LoadProfData\obj\Debug\LoadProfData.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\LoadProfData\LoadProfData\obj\Debug\LoadProfData.exe
+D:\lobdellb\LobdellLLC\bookstore_software\LoadProfData\LoadProfData\obj\Debug\LoadProfData.pdb
+C:\Users\Bryce Lobdell\Software\bookstore_software\LoadProfData\LoadProfData\obj\Debug\LoadProfData.exe
+C:\Users\Bryce Lobdell\Software\bookstore_software\LoadProfData\LoadProfData\obj\Debug\LoadProfData.pdb
+C:\Users\Bryce Lobdell\Software\bookstore_software\LoadProfData\LoadProfData\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bryce Lobdell\Software\bookstore_software\LoadProfData\LoadProfData\bin\Debug\LoadProfData.exe
+C:\Users\Bryce Lobdell\Software\bookstore_software\LoadProfData\LoadProfData\bin\Debug\LoadProfData.pdb

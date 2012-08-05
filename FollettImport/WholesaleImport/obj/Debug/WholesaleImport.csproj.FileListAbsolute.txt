@@ -1,0 +1,5 @@
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\bin\Debug\WholesaleImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\bin\Debug\WholesaleImport.pdb
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\obj\Debug\WholesaleImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\obj\Debug\WholesaleImport.pdb

@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NebraskaImport", "NebraskaImport\NebraskaImport.csproj", "{0E5308D5-EFDC-4E58-9D35-A1DC0791F881}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NebraskaImportSetup", "NebraskaImportSetup\NebraskaImportSetup.vdproj", "{75643616-5EF3-4FEE-A550-C2FACC7B4280}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E5308D5-EFDC-4E58-9D35-A1DC0791F881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5308D5-EFDC-4E58-9D35-A1DC0791F881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5308D5-EFDC-4E58-9D35-A1DC0791F881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5308D5-EFDC-4E58-9D35-A1DC0791F881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75643616-5EF3-4FEE-A550-C2FACC7B4280}.Debug|Any CPU.ActiveCfg = Debug
+		{75643616-5EF3-4FEE-A550-C2FACC7B4280}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

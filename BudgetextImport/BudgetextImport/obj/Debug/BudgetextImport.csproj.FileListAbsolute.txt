@@ -1,0 +1,16 @@
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\BudgetextImport\BudgetextImport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\BudgetextImport\BudgetextImport\bin\Debug\BudgetextImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\BudgetextImport\BudgetextImport\bin\Debug\BudgetextImport.pdb
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\BudgetextImport\BudgetextImport\obj\Debug\BudgetextImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\BudgetextImport\BudgetextImport\obj\Debug\BudgetextImport.pdb
+C:\Users\lobdellb\bookstore_software\BudgetextImport\BudgetextImport\obj\Debug\BudgetextImport.exe
+C:\Users\lobdellb\bookstore_software\BudgetextImport\BudgetextImport\obj\Debug\BudgetextImport.pdb
+C:\Users\lobdellb\bookstore_software\BudgetextImport\BudgetextImport\bin\Debug\BudgetextImport.exe
+C:\Users\lobdellb\bookstore_software\BudgetextImport\BudgetextImport\bin\Debug\BudgetextImport.pdb
+C:\Users\lobdellb\bookstore_software\BudgetextImport\BudgetextImport\obj\Debug\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\obj\Debug\BudgetextImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\obj\Debug\BudgetextImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\bin\Debug\BudgetextImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\bin\Debug\BudgetextImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\obj\Debug\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\bin\Debug\BudgetextImport.exe.config

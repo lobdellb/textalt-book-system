@@ -1,0 +1,9 @@
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\bin\Debug\DownloadIUPUI.exe
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\bin\Debug\DownloadIUPUI.pdb
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\obj\Debug\DownloadIUPUI.exe
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\obj\Debug\DownloadIUPUI.pdb
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\bin\Debug\HtmlAgilityPack.dll
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\bin\Debug\CommonMethods.dll
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\bin\Debug\CommonMethods.pdb
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadIUPUI\bin\Debug\DownloadIUPUI.exe.config

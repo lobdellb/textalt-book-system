@@ -1,0 +1,18 @@
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.exe.config
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\EmailProfs.exe
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\EmailProfs.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.exe
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.exe.config
+D:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\EmailProfs.exe
+D:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\EmailProfs.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\ResolveAssemblyReference.cache
+D:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.exe
+D:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.pdb
+C:\Users\Bryce Lobdell\Software\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.exe.config
+C:\Users\Bryce Lobdell\Software\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\EmailProfs.exe
+C:\Users\Bryce Lobdell\Software\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\EmailProfs.pdb
+C:\Users\Bryce Lobdell\Software\bookstore_software\EmailProfs2\EmailProfs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bryce Lobdell\Software\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.exe
+C:\Users\Bryce Lobdell\Software\bookstore_software\EmailProfs2\EmailProfs\bin\Debug\EmailProfs.pdb

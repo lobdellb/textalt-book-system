@@ -1,0 +1,39 @@
+
+
+/* Layout Stylesheet */ 
+
+#body{
+ margin: 0;
+ padding:0;     
+ background: #c0c0c0;
+ color: #333333;
+ }
+	 
+#head{
+ width: 100%;
+ height: 65px;
+ margin: 0;
+ border: solid #333333;
+ border-width: 0 0 2px 0;
+ background: #ffffff;
+ color: #ffffff;
+ }
+     
+#lh-col{
+ width: 70%;
+ float: left;
+ border: solid #333333;
+ border-width: 0 2px 0 0;
+ background: #eeeeee;
+ color: #333333;
+ margin: 0;
+ padding: 40px;
+ }
+
+#rh-col{
+ background: #ffffff;
+ color: #333333;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ }

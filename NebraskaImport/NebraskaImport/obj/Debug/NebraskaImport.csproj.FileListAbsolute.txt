@@ -1,0 +1,15 @@
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NebraskaImport\NebraskaImport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NebraskaImport\NebraskaImport\bin\Debug\NebraskaImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NebraskaImport\NebraskaImport\bin\Debug\NebraskaImport.pdb
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NebraskaImport\NebraskaImport\obj\Debug\NebraskaImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NebraskaImport\NebraskaImport\obj\Debug\NebraskaImport.pdb
+C:\Users\lobdellb\bookstore_software\NebraskaImport\NebraskaImport\obj\Debug\NebraskaImport.exe
+C:\Users\lobdellb\bookstore_software\NebraskaImport\NebraskaImport\obj\Debug\NebraskaImport.pdb
+C:\Users\lobdellb\bookstore_software\NebraskaImport\NebraskaImport\bin\Debug\NebraskaImport.exe
+C:\Users\lobdellb\bookstore_software\NebraskaImport\NebraskaImport\bin\Debug\NebraskaImport.pdb
+C:\Users\lobdellb\bookstore_software\NebraskaImport\NebraskaImport\obj\Debug\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\obj\Debug\NebraskaImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\obj\Debug\NebraskaImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\bin\Debug\NebraskaImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\bin\Debug\NebraskaImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\obj\Debug\ResolveAssemblyReference.cache

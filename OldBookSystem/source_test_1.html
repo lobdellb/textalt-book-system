@@ -1,0 +1,950 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">    
+     
+
+         
+
+
+ 
+
+
+
+
+<!-- Start - JSP File Name:  ErrorMessageSetup.jspf -->
+
+       
+
+
+
+<!-- End - JSP File Name:  ErrorMessageSetup.jspf -->
+
+
+     
+
+
+     
+
+<head>              
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />  
+<meta http-equiv="content-language" content="en" />
+    
+
+
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<META name="GENERATOR" content="IBM WebSphere Studio">
+<title>  
+         
+      
+      
+      
+      
+      
+            Your Customized Textbook List&nbsp;-&nbsp;Barnes &amp; Noble @IUPUI&nbsp;Bookstore     
+               
+      
+</title>
+
+ 
+
+<link rel="stylesheet" type="text/css" media="all" href="/wcsstore/ConsumerDirectStorefrontAssetStore/css/global.css" />
+
+   
+
+
+
+<link rel="stylesheet" type="text/css" media="all" href="/webapp/wcs/stores/servlet/ConsumerDirectStorefrontAssetStore/css/BNCB_DynamicCss.jsp?storeId=36052" />
+
+<script src="/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/sifr.js" type="text/javascript"></script>
+<script type="text/javascript">
+if(typeof sIFR == "function" && !sIFR.UA.bIsIEMac){
+    sIFR.setup();
+};
+
+// combine palette color value with "#" before passing to flash;
+
+var headerColor = '#'+'990000';
+function sIFRcall(header) {
+    if(typeof sIFR == "function" && header == "h1"){
+        sIFR.replaceElement(named({sSelector:"body h1", sFlashSrc:"/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/sifr.swf", sColor:headerColor, sBgColor:"#FFFFFF", sWmode:"transparent", nPaddingTop:0, nPaddingBottom:0, sFlashVars:"textalign=left&offsetTop=0"}));
+    };
+    if(typeof sIFR == "function" && header == "h2"){
+        sIFR.replaceElement(named({sSelector:"body h2", sFlashSrc:"/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/sifr.swf", sColor:headerColor, sBgColor:"#FFFFFF", sWmode:"transparent", nPaddingTop:0, nPaddingBottom:0, sFlashVars:"textalign=left&offsetTop=0"}));
+    };
+}
+</script>
+<script language="JavaScript" type="text/javascript" src="/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/colHeightfix.js"></script>
+<script language="JavaScript" type="text/javascript" src="/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/TextbookList.js"></script>
+<script language="JavaScript" type="text/javascript" src="/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/ExtEncoderDecoder.js"></script> 
+</head>
+
+<body onload="focusInput('lgLeftcol', 'tRightcol', '', 2 )">
+
+<!-- Form used to Redirect ot the new View which states 'The Barnes and Noble College Bookstore site cannot be viewed in a frame. 
+Click here to open this in a New Window' -->
+<form name="redirectToNewWindowOpenedForm" action="RedirectToNewwindowView">
+   <input type="hidden" name="storeId" value="36052"/>
+   <input type="hidden" name="catalogId" value="10001"/>
+   <input type="hidden" name="langId" value="-1"/>
+   
+   
+</form> 
+<!-- Form End -->
+<!-- Javascript used to check whether this is opened in a sub frame -->
+<script type="text/javascript">
+if(self.parent.frames.length!=0){
+   document.redirectToNewWindowOpenedForm.submit();
+}
+</script>
+
+<div id="container">   
+  <!-- Header divs -->        
+                       
+      
+        
+      
+       
+      
+                                
+   
+
+<!-- Start - JSP File name:  style1/CachedHeaderDisplay.jsp -->
+
+
+
+
+<fmt:setLocale value="${CommandContext.locale}" /><fmt:setBundle basename="${jspStoreDir}storetext" var="storeText" />
+
+<link rel="stylesheet" type="text/css" media="all" href="/wcsstore/ConsumerDirectStorefrontAssetStore/css/global.css" />
+
+   
+
+
+
+<link rel="stylesheet" type="text/css" media="all" href="/webapp/wcs/stores/servlet/ConsumerDirectStorefrontAssetStore/css/BNCB_DynamicCss.jsp?storeId=36052" />
+
+<script src="/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/sifr.js" type="text/javascript"></script>
+<script type="text/javascript">
+if(typeof sIFR == "function" && !sIFR.UA.bIsIEMac){
+    sIFR.setup();
+};
+
+// combine palette color value with "#" before passing to flash;
+
+var headerColor = '#'+'990000';
+function sIFRcall(header) {
+    if(typeof sIFR == "function" && header == "h1"){
+        sIFR.replaceElement(named({sSelector:"body h1", sFlashSrc:"/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/sifr.swf", sColor:headerColor, sBgColor:"#FFFFFF", sWmode:"transparent", nPaddingTop:0, nPaddingBottom:0, sFlashVars:"textalign=left&offsetTop=0"}));
+    };
+    if(typeof sIFR == "function" && header == "h2"){
+        sIFR.replaceElement(named({sSelector:"body h2", sFlashSrc:"/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/sifr.swf", sColor:headerColor, sBgColor:"#FFFFFF", sWmode:"transparent", nPaddingTop:0, nPaddingBottom:0, sFlashVars:"textalign=left&offsetTop=0"}));
+    };
+}
+
+</script>
+  <!-- Header divs -->
+  <div id="header">
+   
+
+
+
+
+
+
+
+
+
+<script language="JavaScript" type="text/javascript"> 
+   function focusInput(div1, div2, div3, numberOfDiv){
+      if(numberOfDiv==2){
+         P7_equalCols2(0,div1,'P',div2,'P');
+      }
+      else if(numberOfDiv==3){
+         P7_equalCols2(0,div1,'P',div2,'P',div3,'P');    
+      }     
+      if (document.getElementById("focusON")!=null){
+         document.getElementById('focusON').focus(); 
+      }
+      window.setTimeout("sel_sec()", 5000); // 2000 for 2 min 
+      //if(document.getElementById("errMessage")!=null){  
+      // document.getElementById("errMessage").focus();     //}
+      }
+   function sel_sec() {
+         if (document.getElementById("errorBlock")!=null){
+               var errStyle =    document.getElementById("errorBlock").style;
+               if(errStyle.display!='none'){
+                  if (document.getElementById("errMessage")!=null){
+                     document.getElementById("errMessage").focus();
+                  }
+               }
+         }
+   }  
+</script>
+<div id="welcomeN5">
+<div class="welcomeD2"
+    >Welcome to Barnes &amp; Noble @IUPUI&nbsp;Bookstore</div>
+   
+      <form name="searchForm" action="ProductSearchCommand">
+         <input type="hidden" name="storeId" value="36052"/>
+
+         <input type="hidden" name="langId" value="-1"/>
+         <input type="hidden" name="catalogId" value="10001"/>
+         <input type="hidden" name="extSearchEnabled" value="G "/>
+         <input type="hidden" name="displayImage" value="N "/>
+         <div class="searchTxtfield">
+         <table class="width101 floatLeft" border="0" cellpadding='0' cellspacing='0'>
+            <tr align="right">
+               <td>
+                  <a href="#" title="Press Tab to Proceed" tabindex="1"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="1" height="1" alt="" border="0" /></a>
+
+               </td>
+   
+   
+   
+
+<!--   <form name="searchController"  action="">  -->
+   
+            <td align="right">         
+               <input class="search-textbox" type="text" tabindex="2" id="search" name="search"  title="Type for search" value="Search" onfocus="this.value = ( this.value == this.defaultValue ) ? '' : this.value;return true;" />
+            </td>
+            <td><a href="#" tabindex="3" title="Press tab to proceed" style="color:#ECECEC;">.</a></td>
+            <td class="imgbtn">
+               <input type="image" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/arrow_btn.gif" border="0" alt="Click here if you want to Start Search" title="Click here if you want to Start Search" tabindex="4"/>
+            </td>
+
+         </tr>
+      </table>
+      </div>
+   </form>
+
+</div>
+
+
+
+
+
+
+
+<script language="JavaScript" type="text/javascript" src="/wcsstore/ConsumerDirectStorefrontAssetStore/javascript/users.js"></script>
+
+
+
+   
+         
+   
+
+
+   
+   
+         
+      
+   
+
+
+<div class="hDots width768 floatLeft">&nbsp;</div>
+<div id="brandArea">
+<div id="brand" class="mTop10">
+
+          <a href="javascript:openRequestedPopup(&#039;http://www.iupui.edu/&#039;);" Title="Logo"><img src="/wcsstore/iupui/images/logo.jpg" alt="Logo" Title="Logo" border="0" align="middle"/></a>
+   
+   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="persLinks">
+<ul>
+
+   
+      
+      
+         <li class="pTop4"><span>Guest User</span></li>
+
+         <li><a href="BNCBLogonForm?langId=-1&amp;storeId=36052&amp;catalogId=10001">Register / Login</a></li>
+      
+   
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="persLinks2">
+<ul>
+   
+      
+      
+      
+      
+      
+      
+      
+      
+   
+
+   <li class="cartQty"><div><span>&nbsp;</span></div>
+         
+      
+      
+      0
+      Items</li>
+      <li>Subtotal $0.00</li>
+      
+         
+   
+   
+      <li><a href="OrderCalculate?storeId=36052&amp;catalogId=10001&amp;orderId=.&amp;URL=OrderItemDisplay">Checkout </a></li>
+
+   
+</ul>
+</div>
+
+
+<div id="cobrand">&nbsp;</div>
+<div class="clearBoth"></div>
+</div>
+  </div>
+  <!-- Nav divs -->
+  
+
+
+<flow:fileRef id="vfileColor" fileId="vfile.color"/><flow:fileRef id="vfileStylesheet" fileId="vfile.stylesheet"/><fmt:setLocale value="${CommandContext.locale}" /><fmt:setBundle basename="${jspStoreDir}storetext" var="storeText" />
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="clearBoth"></div>
+<div id="topNavD1">
+    <div id="topNavLinks">
+      <ul>
+
+<li>
+<a href="BNCBHomePage?catalogId=10001&amp;storeId=36052&amp;langId=-1&amp;level=1">Home</a>
+</li>                      
+
+
+<li>
+<a href="TBWizardView?catalogId=10001&amp;storeId=36052&amp;langId=-1&amp;level=1">Textbooks</a>
+</li>                      
+
+
+<li>
+<a href="BNCBFacultyAdoptionEmail?catalogId=10001&amp;storeId=36052&amp;langId=-1&amp;level=1">Faculty</a>
+</li>                      
+
+
+<li>
+<a href="CategoryDisplay?catalogId=10001&amp;storeId=36052&amp;categoryId=40000&amp;top=Y&amp;langId=-1&amp;level=2">Apparel</a>
+</li>                      
+
+
+
+<li>
+<a href="CategoryDisplay?catalogId=10001&amp;storeId=36052&amp;categoryId=40001&amp;top=Y&amp;langId=-1&amp;level=2">Gifts</a>
+</li>                      
+
+
+<li>
+<a href="CategoryDisplay?catalogId=10001&amp;storeId=36052&amp;categoryId=40002&amp;top=Y&amp;langId=-1&amp;level=2">Supplies & Bags</a>
+</li>                      
+
+
+<li>
+<a href="CategoryDisplay?catalogId=10001&amp;storeId=36052&amp;categoryId=40003&amp;top=Y&amp;langId=-1&amp;level=2">Technology</a>
+</li>                      
+
+
+<li>
+<a href="CategoryDisplay?catalogId=10001&amp;storeId=36052&amp;categoryId=40004&amp;top=Y&amp;langId=-1&amp;level=2">Alumni</a>
+</li>                      
+
+
+
+<li>
+<a href="StudentOffersView?catalogId=10001&amp;storeId=36052&amp;langId=-1&amp;level=1">Student Offers</a>
+</li>                      
+
+</ul>
+    </div>
+  </div>
+
+  <div class="clear0"></div>
+  <!-- End Nav divs -->
+  <!-- End Header divs -->
+<!--END HEADER-->
+
+<!-- End - JSP File name:  style1/CachedHeaderDisplay.jsp -->
+       
+  <!-- End Nav divs -->  
+  <!-- Breadcrumb Module -->  
+  <div class="pTop8 pBot8">   
+        
+      
+                                    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<div id="textSearch">
+   <span>
+
+
+
+<a href="TBWizardView?langId=-1&amp;storeId=36052&amp;catalogId=10001&=">Textbook Search</a>       
+                  
+                        
+               
+                   > Your Customized Textbook List
+               
+               
+               </span>
+</div>  
+ <!-- this jsp is used to display an emarketing spot store promotion link (right breadcrum) -->
+
+
+
+<div id="adLink">
+<a href='PromotionsLandingView?catalogId=10001&amp;storeId=36052&amp;langId=-1'>
+
+   
+      
+         
+         
+         
+         
+         
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+         
+            
+            
+            
+            
+         
+         
+      
+
+   
+   
+   
+      
+         
+      
+      
+   
+   
+      
+         
+      
+      
+   
+
+
+
+   
+
+   
+      
+      
+         
+      
+   
+
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+   
+   
+
+
+   
+   
+</a></div>
+  
+  </div>          
+  <!-- End Breadcrumb Module -->  
+  <div class="clear10px"></div>       
+  <!-- Content divs -->
+  <div id="main1colTan">     
+    <!-- left column -->    
+    <div id="lgLeftcol">      
+    <!--#include file="include/leftMod2.2.html" -->    
+  <div class="mLeft10">        
+  
+             
+      </div>   
+      
+    
+   <form name="courseListForm" id="courseListForm" method="post" >
+
+   <h1>Your Course Materials</h1>
+      <script language="JavaScript" type="text/javascript">
+         //<![CDATA[  
+         sIFRcall('h1');
+      //]]>
+   </script>
+<input type="hidden" name="catalogId" value='10001'/>
+<input type="hidden" name="savedListAdded" value="true" />
+<input type="hidden" name="clearAll" value="" />
+<input type="hidden" name="viewName" value="TBWizardView" />
+      <input type="hidden" name="postLogonURL" value="TextBookSaveCourseListCmd" />
+      <input type="hidden" name="URL" value="" />
+      <input type="hidden" name="redirectView" value="TBWizardView" />       
+      <input type="hidden" name="ldTextbooks" value="Y" />
+
+      <input type="hidden" name="prevPage" value="TextbookList" />
+ 
+   
+   
+      <input type="hidden" name="saveCourseListView" value="BNCBLogonForm" />
+   
+
+<div class="floatLeft width45"><a href="#" title="Press Tab to Proceed" id="focusON"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="1" height="1" alt="" border="0" /></a></div>
+
+   
+   
+
+ 
+ 
+ 
+ 
+
+
+    
+      <div id="sectionHeadright2">
+        <div id="sectionCornerRlgleft"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="24" alt="" title="" /></div>
+<!--<div id="sectTextlgNS"><a href="#">Main Campus</a><span class="font16">&#8250;</span><a href="#">History</a><span class="font16">&#8250;</span><a href="#">101 Intro to Western History</a> <span class="font16">&#8250;</span><a href="#">Section 23</a><span class="font16">&#8250;</span> <a href="#">Braur</a></div>-->
+        <div id="sectTextlgNS"><span>SPRING 2009</span><span class="font16">&#8250;</span><span>AT</span><span class="font16">&#8250;</span><span>481</span><span class="font16">&#8250;</span><span>28144</span></div>
+
+        
+        <div id="sectionCornerRlgright"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="24" alt="" title="" /></div>
+      </div>
+      <br class="clearAll"/>
+      <div id="sectBottomlg"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="3" alt="" title="" /></div>
+     
+         
+         <!--MODULE FOR 3rd PRODUCT BEGINS HERE-->
+         
+         
+         <input type="hidden" name="section_1" value='35417655' />
+         <input type="hidden" name="catEntryId_1" value='549999999999' />
+          
+      <div id="bookTbl">
+        <table cellpadding="0" cellspacing="0" border="0" summary="textbook">
+
+          <tr>
+            <td valign="top"><table cellpadding="0" cellspacing="0" border="0" width="305" summary="textbook1">
+                <tr>
+                  <td>
+                    <b>Course Pre-Order</b><br>Currently no textbook has been assigned for this course.  You can still reserve now by clicking the "Add to Cart" button and we will process your order as soon as textbook information is received. <br>If your instructor decides not to require any materials, this pre-order will not be processed.</td>
+                </tr>
+              </table></td>
+
+            <td valign="top"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="40" height="1" alt="" title="" /></td>
+            <td valign="top"><table cellpadding="0" cellspacing="0" border="0" width="151" summary="textbook2">
+                <tr>
+                  <td><input type="checkbox" name="addtocart_1"  id="addtocart_1" value="true" title="Add to cart" Checked="Checked" onclick="updateCheckboxes('1')"/>
+                     <input type="hidden" name="preorder_1" value="1" />
+                     <input type="hidden" name="field2_1" value="1" />
+                     <input type="hidden" name="notregistered_1" value="0" />
+                  </td>
+                  <td width="145px"><span>&nbsp;&nbsp;Add to Cart</span></td>
+
+                </tr>
+                <tr>
+                  <td colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="5" alt="" title="" /></td>
+                </tr>
+                <tr>
+                  <td background="/wcsstore/ConsumerDirectStorefrontAssetStore/images/horiz_dots.gif" colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="1" alt="" title="" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="5" alt="" title="" /></td>
+
+                </tr>
+                <tr>
+                  
+                  <td><input type="radio" name="new_1" value="1" title="New" /></td>
+                  <td valign="middle"><span>&nbsp;&nbsp;New</span></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="5" alt="" title="" /></td>
+                </tr>
+
+                <tr>
+                 
+                  <td><input type="radio" name="new_1" value="2" checked="checked" title="Used if available" /></td>
+                  
+                  <td><span>&nbsp;&nbsp;Used</span>,&nbsp;<span><a name="available">if available</a></span></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="5" alt="" title="" /></td>
+                </tr>
+
+                <tr>
+                  <td background="/wcsstore/ConsumerDirectStorefrontAssetStore/images/horiz_dots.gif" colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="1" alt="" title="" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="5" alt="" title="" /></td>
+                </tr>
+                <tr>
+                  <td><input type="radio" title="all materials" name="allmaterials_1" value="1" checked="checked"/></td>
+                  <td valign="middle"><span>&nbsp;&nbsp;All Materials</span></td>
+
+                </tr>
+                <tr>
+                  <td colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="5" alt="" title="" /></td>
+                </tr>
+                <tr>
+                  <td><input type="radio" title="required only" name="allmaterials_1" value="2" /></td>
+                  <td><span>&nbsp;&nbsp;Required Only</span></td>
+                </tr>
+
+                <tr>
+                  <td colspan="2"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/spacer.gif" width="5" height="10" alt="" title="" /></td>
+                </tr>
+              </table></td> 
+          </tr>
+          
+          
+        </table>
+      </div>
+      
+      <input type="hidden" name="quantity_1" value="1" />
+      <!--MODULE FOR 3rd PRODUCT ENDS HERE-->
+
+      
+         
+     
+     
+         
+        
+               
+         
+  
+      <!-- MODULE FOR 1 PRODUCT BEGIN HERE  -->
+ <div class="clear15px"></div> <!--AS  check if required at end -->
+  <!--AS  Module End -->
+
+
+     
+     <br class="clearAll" />
+     
+     <div id="selectAll"> 
+        <div id="selectAlltxt"> 
+          
+          <ul>
+            <li> 
+              <input type="checkbox" name="cRequired" title="Select Required Only" class="vertalign" onClick="javascript:checkRequired('1')"/>
+
+              <span>Select Required Only</span>
+              <input type="checkbox" name="cAll" class="vertalign" title="Select All Textbooks" Checked="Checked" onClick="javascript:checkAll('1')" />
+              <span>Select All Textbooks</span></li>
+          </ul>
+         
+        </div>
+      </div>  
+
+      <input type="hidden" name="counter" value='1'/>
+      
+       <!-- MODULE FOR BUTTON BEGINS HERE--> 
+      <div id="btns" style="padding-bottom:5px;">
+
+         <div class ="floatRight">                          
+         <div class="floatLeft">
+            <input type="image" title="save list for later" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/save_later_btn.gif"  id="saveCourseList"  border="0" align="middle" alt="Save" class="pRight5" onclick="javascript:saveCourseList('1')" />
+            <img alt="Save" border="0" style="display:none" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/saving_list.gif" id="savingCourseList" align="middle" class="pRight5" />
+            <img alt="Save" border="0" style="display:none" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/save_later_btn.gif" id="disableSaveCourseList" align="middle" class="pRight5" />
+         </div> 
+          
+         <div class="floatLeft">
+            <a href="#here" onclick="javascript:submitChangeCourse()"><img title="change course" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/change_course_btn.gif" id="changeCourseList" border="0" align="middle" alt="Change" class="pRight5" /></a>
+            <img alt="Change" border="0" style="display:none" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/changing.gif" id="changingCourseList" align="middle" class="pRight5" />
+            <img alt="Change" border="0" style="display:none" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/change_course_btn.gif" id="disableChangeCourseList" align="middle" class="pRight5" />
+
+         </div>
+         
+         <div class="floatLeft">
+            <input type="image" title="clear course list" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/clear_course_btn.gif" id="clearCourseList" border="0" align="middle" alt="Clear" class="pRight5" onclick="javascript:clearCourse('1');"/>         
+            <img alt="Clear" border="0" style="display:none" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/clearing.gif" id="clearingCourseList" align="middle" class="pRight5" />
+            <img alt="Clear" border="0" style="display:none" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/clear_course_btn.gif" id="disableClearCourseList" align="middle" class="pRight5" />
+         </div>
+
+         <div class ="floatLeft">
+              <a href="#here"><img id="AddToCartButton" title="add to cart" class="btnBorder" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/add_cart_btn2.gif"       border="0" alt="Add to Cart" align="middle"  onclick="Add2ShopCart(document.courseListForm,'addtoshopcart','donotaddtoshopcart');"  />
+              </a>
+
+            <img name="image2" style="display:none" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/submitting.gif" align="middle" class="btnBorder" border="0" alt="Submitting" id="donotaddToCartButton" />
+            <img alt="Add to cart" border="0" style="display:none" src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/add_cart_btn2.gif" id="disableAddToCart" align="middle" class="btnBorder" />
+         </div>
+       </div>
+       <br/>       
+      </div>
+      
+      </form>
+   <!-- MODULE FOR BUTTON ENDS HERE-->
+   
+                        
+      <!-- End Module -->   
+      <p></p>
+
+      <br class="clearAll" />      
+    </div>   
+    <!-- end left column -->
+    <!-- right column -->
+    
+      
+   
+    <div id="tRightcol">
+      <!--#include file="include/rightContent2.2.html" -->
+   <!--%@ include file="../include/product/BNCB_TextBookHelp.jsp" %-->  
+      <h2>Help with Textbooks</h2>
+         <script type="text/javascript">
+            //<![CDATA[ 
+         sIFRcall('h2');
+         //]]>
+      </script>   
+      <!-- Module -->
+
+      <div id="tRightcolTxt">
+      
+         
+            
+        <p> 
+        <b>Textbook Prices Subject to Change</b><br/>
+      <script language="JavaScript" type="text/javascript">
+         document.write(URLDecode("Textbook publishers periodically change their prices. We update our textbook pricing information, as needed, to ensure that we have the most accurate pricing possible. If there is a price change on a book you ordered, you will be charged accordingly. The invoice that accompanies your textbooks will reflect any pricing changes."));
+      </script>
+      <br />   
+      <br />
+      </p>  
+      
+         
+            
+        <p> 
+        <b>Used Books</b><br/>
+
+      <script language="JavaScript" type="text/javascript">
+         document.write(URLDecode("Buy+Used+and+save+25%25%21+%3Cbr%3EOrdering+early+helps+you+get+the+Used+Books+you+want.+If+you+request+a+Used+Book+and+one+is+not+available%2C+we&#8217;ll+process+your+order+with+a+new+textbook.+"));
+      </script>
+      <br />
+      <br />
+      </p>  
+      
+         
+            
+        <p> 
+        <b>Required, Recommended, Buy Text Alone, or Bookstore Recommendations</b><br/>
+      <script language="JavaScript" type="text/javascript">
+         document.write(URLDecode("%3Cul%3E%3Cli%3ERequired+books+are+those+identified+by+the+instructor+as+necessary+to+successfully+complete+the+course.%3C%2Fli%3E%3Cli%3ERecommended+books+are+those+identified+by+the+instructor+as+relevant%2C+yet+optional%2C+for+the+course.%3C%2Fli%3E%3Cli%3EBuy+Text+Alone+titles+give+you+the+option+of+purchasing+either+the+bundled+course+materials+or+just+the+textbook.++%3C%2Fli%3E%3Cli%3EBookstore+Recommended+are+those+titles+identified+by+the+bookstore+team+as+supplemental+or+helpful+materials+for+the+course.+%3C%2Fli%3E%3C%2Ful%3E"));
+      </script>
+      </p>
+
+        <ul>
+          <li><a href="BNCBLocationAndContactView?storeId=36052&langId=-1&catalogId=10001">Contact your bookstore</a></li>
+        </ul>
+        <br/>
+        <!-- End Module --> 
+     </div>    
+        <br/>
+      <p></p> 
+      
+
+    </div>
+    <br class="clearAll" />
+
+    <!-- end right column -->
+  </div>  
+  <!-- End Content divs -->  
+  <div class="clear10px"></div>
+  <!-- Footer Divs -->
+  <div id="botNavD1" name="here" >    
+     
+      
+      
+      
+   
+
+
+<!-- Start - JSP File name:  style1/CachedFooterDisplay.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="botNavD1" class="mTop5">
+<div id="botNavLinks">
+<ul>
+
+   
+   <li><a
+      href="BNCBcalendarEventListView?langId=-1&amp;storeId=36052&amp;catalogId=10001">Calendar of Events</a></li>
+   
+   <li><a
+      href="BNCBLocationAndContactView?langId=-1&amp;storeId=36052&amp;catalogId=10001">Contact Us</a></li>
+
+   
+   <li><a
+      href="BNCBShippingDeliveryView?langId=-1&amp;storeId=36052&amp;catalogId=10001">Payment & Delivery</a></li>
+   
+   <li><a
+      href="BNCBRefundsView?langId=-1&amp;storeId=36052&amp;catalogId=10001">Refunds</a></li>
+   
+   <li><a
+      href="BNCBTermsOfUseView?langId=-1&amp;storeId=36052&amp;catalogId=10001">Terms of Use</a></li>
+   
+   <li><a
+      href="BNCBPrivacyView?langId=-1&amp;storeId=36052&amp;catalogId=10001">Privacy & Security</a></li>
+   
+   <li><a
+      href="BNCBFeedbackView?langId=-1&amp;storeId=36052&amp;catalogId=10001">Feedback</a></li>
+
+   
+</ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!--Google analytics code -->
+
+
+      
+  
+      
+
+
+   <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+   </script>
+
+   
+   <script type="text/javascript">
+      _uacct="UA-1523307-1";
+      _udn="bncollege.com";
+      _ucto="43200"; //set cookie timeout to 12 hours (in seconds)
+      urchinTracker();
+      __utmSetVar("store_631_region_101");
+   </script>
+
+
+  </div>
+  <!-- End Footer Divs -->
+  <div class="clear15px"></div>
+</div>
+</body>   
+
+
+</html>

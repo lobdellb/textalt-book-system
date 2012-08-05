@@ -1,0 +1,33 @@
+﻿
+
+Professor %s,
+
+I am writing on behalf of The Textbook Alternative, a new discount textbook retailer on campus. We will carry the book(s) for your class(s) this Fall, and hope you will assist your students in finding books for the least cost by passing this information on to them.
+
+The books we will carry are:
+
+%s* Please let us know if any of the books listed are inaccurate, or if you do not wish for the student to buy the book.
+
+* We systematically underprice the campus store.
+
+* We are pleased to offer old editions of books at a substantial discount.  Please let us know if students are able to use old editions.
+
+* Real-time inventory and prices are available on our website www.textalt.com.
+
+* We understand that the college textbook business is largely about meeting the specific needs of professors.  If you have special needs please contact us and we will accommodate as best we can.
+
+Sincerely,
+
+Rich Lobdell
+Owner/Manager
+rich@textalt.com
+
+Bryce Lobdell
+Owner
+lobdellb@gmail.com
+
+The Textbook Alternative
+222 W. Michigan St.
+Indianapolis, IN  46204
+317-636-8398
+http://www.textalt.com

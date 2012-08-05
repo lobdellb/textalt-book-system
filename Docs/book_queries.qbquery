@@ -1,0 +1,87 @@
+﻿select * from newtextalt.wholesalebook;
+
+
+
+insert into textalt_dev_v1.wholesale_t_wholesalebook
+(title, author, publisher, edition, `year`, newprice, newoffer,usedoffer, wholesaler_key, start_date,end_date, isbn,isbn9 )
+select title,author, publisher, edition, `year`, newprice, newoffer, usedoffer, wholesaler_key, start_date, end_date, isbn, isbn9
+from newtextalt.wholesalebook;
+
+
+
+insert into iupui_t_bookvssection book_key,section_key select book_key,section_key from newtextalt.iupui_book_vs_section
+
+
+-- Get sections associated with a particular isbn
+use textalt_dev_v1;
+select concat(d.dept_name,c.str),s.number,max_enrollment,current_enrollment,waitlist_enrollment from iupui_t_books b
+join iupui_t_bookvssection bvs on b.pk = bvs.book_key
+join iupui_t_sections s on s.pk = bsv.section_key
+left join iupui_t_course c on c.pk = section.course_key
+left join iupui_t_deptartment d on d.pk = c.department_key
+where isbn9 = @Isbn and season_key = @Season;
+
+-- Get courses associated with a particular isbn
+use textalt_dev_v1;
+select concat(d.dept_name,c.str) as name,sum(max_enrollment),sum(current_enrollment),sum(waitlist_enrollment) from iupui_t_books b
+join iupui_t_bookvssection bvs on b.pk = bvs.book_key
+join iupui_t_sections s on s.pk = bsv.section_key
+left join iupui_t_course c on c.pk = section.course_key
+left join iupui_t_deptartment d on d.pk = c.department_key
+where isbn9 = @Isbn and season_key = @Season
+group by name;
+
+
+-- Get enrollment associated with a paricular book
+select sum(max_enrollment) as maxenrl,sum(current_enrollment) as currenrl ,sum(waitlist_enrollment) as wlenrl
+from iupui_t_books b
+join iupui_t_bookvssection bvs on b.pk = bvs.book_key
+join iupui_t_sections s on s.pk = bsv.section_key
+left join iupui_t_course c on c.pk = section.course_key
+left join iupui_t_deptartment d on d.pk = c.department_key
+where isbn9 = @Isbn and season_key = @Season;
+
+
+-- Get profs associated with a particular book
+select p.pk, concat(d.dept_name,c.str) as name, s.number, p.listed_name, p.last_name, p.first_name, p.email, p.office, p.phone, p.comments
+from iupui_t_books b
+join iupui_t_bookvssection bvs on b.pk = bvs.book_key
+join iupui_t_sections s on s.pk = bsv.section_key
+left join iupui_t_course c on c.pk = section.course_key
+left join iupui_t_deptartment d on d.pk = c.department_key
+join iupui_t_professors p on p.pk = s.prof_key
+where isbn9 = @Isbn and season_key = @Season
+group by name;
+
+
+
+
+-- get iupui books by section
+
+select *
+from iupui_t_books b
+join iupui_t_bookvssection bvs on b.pk = bvs.book_key
+join iupui_t_sections s on s.pk = bsv.section_key
+join iupui_t_professors p on p.pk = s.prof_key
+where s.number = @SectionNum  and season_key = @Season;
+
+
+
+
+
+-- get iupui books by class
+
+select *
+from iupui_t_books b
+join iupui_t_bookvssection bvs on b.pk = bvs.book_key
+join iupui_t_sections s on s.pk = bsv.section_key
+left join iupui_t_course c on c.pk = section.course_key
+left join iupui_t_deptartment d on d.pk = c.department_key
+join iupui_t_professors p on p.pk = s.prof_key
+where concat(d.dept_name,c.str) like @CourseQuery  and season_key = @Season;
+
+
+
+
+
+

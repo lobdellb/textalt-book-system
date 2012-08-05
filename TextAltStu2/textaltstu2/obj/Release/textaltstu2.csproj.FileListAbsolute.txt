@@ -1,0 +1,10 @@
+F:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\bin\textaltstu2.dll
+F:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\bin\textaltstu2.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\obj\Release\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\obj\Release\textaltstu2.dll
+F:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\obj\Release\textaltstu2.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\obj\Release\ResolveAssemblyReference.cache
+D:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\obj\Release\textaltstu2.dll
+D:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\obj\Release\textaltstu2.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\bin\textaltstu2.dll
+D:\lobdellb\LobdellLLC\bookstore_software\textaltstu2\textaltstu2\bin\textaltstu2.pdb

@@ -1,0 +1,20 @@
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\obj\Debug\WholesaleImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\obj\Debug\WholesaleImport.pdb
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\bin\Debug\WholesaleImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\WholesaleImport\WholesaleImport\bin\Debug\WholesaleImport.pdb
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\FollettImport\WholesaleImport\obj\Debug\WholesaleImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\FollettImport\WholesaleImport\obj\Debug\WholesaleImport.pdb
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\FollettImport\WholesaleImport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\FollettImport\WholesaleImport\bin\Debug\WholesaleImport.exe
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\FollettImport\WholesaleImport\bin\Debug\WholesaleImport.pdb
+C:\Users\lobdellb\bookstore_software\FollettImport\WholesaleImport\obj\Debug\WholesaleImport.exe
+C:\Users\lobdellb\bookstore_software\FollettImport\WholesaleImport\obj\Debug\WholesaleImport.pdb
+C:\Users\lobdellb\bookstore_software\FollettImport\WholesaleImport\bin\Debug\WholesaleImport.exe
+C:\Users\lobdellb\bookstore_software\FollettImport\WholesaleImport\bin\Debug\WholesaleImport.pdb
+C:\Users\lobdellb\bookstore_software\FollettImport\WholesaleImport\obj\Debug\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Debug\WholesaleImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Debug\WholesaleImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\bin\Debug\WholesaleImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\bin\Debug\WholesaleImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Debug\ResolveAssemblyReference.cache

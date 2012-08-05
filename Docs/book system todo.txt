@@ -1,0 +1,36 @@
+
+
+I'm revising the book system.  I wanted to make sure I didn't omit any important items.  And get your thoughts on how they are prioritized.  I have three categories (1) essential functionality which I'll hopefully accomplish in the next day or two, (2) high yield items which should definitely be "in production" by the spring buying season, and (3) other items that would help a lot:
+
+(1) essential functionality
+- integrate new/old screen so http://spring10 loads the right screen immediately
+*- add inventory check-in/check-out to the new system
+- add the barcode and address printing to the new system
+- automate the download/update process
+- fix/clarify/etc the credit card processing
+- fix rounding error on return screen
+- automate same-day refunds
+- make receipt printing fast
+- print refund receipt
+
+
+(2) near term items
+- system knows how many new and used books are available
+- cashier activity logging, and cash accountability (ie., each cashier uses ID cards to do audit-able activities)
+- easy printing of custom shelf-tags, with "book number" so the books can be located faster
+- auto-print stickers for all purchased book which include (a) wholesale destination or where they should be shelved, (b) and 99990/90000 to indicate new or used
+- separate management of half.com/wholesale/iupui inventories
+- warnings for wholesale expiry
+- ability to pay for purchased books in store credit
+- "professor relationship management" software to help us keep in touch with profs and get information from them sooner, faster, better.
+- flow charts for semester activities
+- make it so you can choose which db is used
+
+
+(3) more ambitious items
+- half.com/amazon.com integration:  (a) tell us where ws books should be moved to half.com, (b) expand potential purchases to include books which can be sold on half.com, (c) speed process of completing a half.com sale.
+- sell online on our website, pre-reserve, etc.
+- auto generation of statistics
+- auto generation of most information needed to produce financial statements
+- integration with book share, book volume
+- implement edis with Follett

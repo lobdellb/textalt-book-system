@@ -1,0 +1,311 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{624B182E-0296-42BF-8B2E-6B166AF6802B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewBookSystem</RootNamespace>
+    <AssemblyName>NewBookSystem</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MigraDoc.DocumentObjectModel, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lobdellb\docgen\MigraDoc\code\MigraDoc.DocumentObjectModel\bin\Release\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lobdellb\docgen\MigraDoc\code\MigraDoc.Rendering\bin\Release\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.0.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="PdfSharp, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lobdellb\docgen\MigraDoc\code\MigraDoc.Rendering\bin\Release\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lobdellb\docgen\MigraDoc\code\MigraDoc.Rendering\bin\Release\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrowseReports.aspx.cs">
+      <DependentUpon>BrowseReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrowseReports.aspx.designer.cs">
+      <DependentUpon>BrowseReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessDecisions.cs" />
+    <Compile Include="BuyBooks.aspx.cs">
+      <DependentUpon>BuyBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuyBooks.aspx.designer.cs">
+      <DependentUpon>BuyBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckIn.aspx.cs">
+      <DependentUpon>CheckIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckIn.aspx.designer.cs">
+      <DependentUpon>CheckIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut.aspx.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckOut.aspx.designer.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="CompleteSale.aspx.cs">
+      <DependentUpon>CompleteSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompleteSale.aspx.designer.cs">
+      <DependentUpon>CompleteSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureSeasons.aspx.cs">
+      <DependentUpon>ConfigureSeasons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigureSeasons.aspx.designer.cs">
+      <DependentUpon>ConfigureSeasons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProf.aspx.cs">
+      <DependentUpon>EditProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProf.aspx.designer.cs">
+      <DependentUpon>EditProf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MakeADamnBarcode.aspx.cs">
+      <DependentUpon>MakeADamnBarcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakeADamnBarcode.aspx.designer.cs">
+      <DependentUpon>MakeADamnBarcode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewReceiptTest.aspx.cs">
+      <DependentUpon>NewReceiptTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewReceiptTest.aspx.designer.cs">
+      <DependentUpon>NewReceiptTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SettleReferral.aspx.cs">
+      <DependentUpon>SettleReferral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SettleReferral.aspx.designer.cs">
+      <DependentUpon>SettleReferral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CountInventory.aspx.cs">
+      <DependentUpon>CountInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CountInventory.aspx.designer.cs">
+      <DependentUpon>CountInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DailyReport.aspx.cs">
+      <DependentUpon>DailyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DailyReport.aspx.designer.cs">
+      <DependentUpon>DailyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayReport.aspx.cs">
+      <DependentUpon>DisplayReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayReport.aspx.designer.cs">
+      <DependentUpon>DisplayReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPosItems.aspx.cs">
+      <DependentUpon>EditPosItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPosItems.aspx.designer.cs">
+      <DependentUpon>EditPosItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LookupByISBN.aspx.cs">
+      <DependentUpon>LookupByISBN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LookupByISBN.aspx.designer.cs">
+      <DependentUpon>LookupByISBN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterReport.aspx.cs">
+      <DependentUpon>MasterReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterReport.aspx.designer.cs">
+      <DependentUpon>MasterReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecordReferralPurchase.aspx.cs">
+      <DependentUpon>RecordReferralPurchase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecordReferralPurchase.aspx.designer.cs">
+      <DependentUpon>RecordReferralPurchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnBooks.aspx.cs">
+      <DependentUpon>ReturnBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReturnBooks.aspx.designer.cs">
+      <DependentUpon>ReturnBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchIUPUI.aspx.cs">
+      <DependentUpon>SearchIUPUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchIUPUI.aspx.designer.cs">
+      <DependentUpon>SearchIUPUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SellBooks.aspx.cs">
+      <DependentUpon>SellBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellBooks.aspx.designer.cs">
+      <DependentUpon>SellBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\parsestripe.js" />
+    <Content Include="assets\pay_books_scr.js" />
+    <Content Include="assets\pos_screen.gif" />
+    <Content Include="assets\TextbookAlt.gif" />
+    <Content Include="BrowseReports.aspx" />
+    <Content Include="BuyBooks.aspx" />
+    <Content Include="CheckIn.aspx" />
+    <Content Include="CheckOut.aspx" />
+    <Content Include="CompleteSale.aspx" />
+    <Content Include="ConfigureSeasons.aspx" />
+    <Content Include="ConnectionStrings.xml" />
+    <Content Include="EditProf.aspx" />
+    <Content Include="MakeADamnBarcode.aspx" />
+    <Content Include="NewReceiptTest.aspx" />
+    <Content Include="SettleReferral.aspx" />
+    <Content Include="CountInventory.aspx" />
+    <Content Include="css\2c-hd-flex-layout.css" />
+    <Content Include="css\2c-hd-flex-presentation.css" />
+    <Content Include="DailyReport.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="DisplayReport.aspx" />
+    <Content Include="EditPosItems.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="LookupByISBN.aspx" />
+    <Content Include="MasterReport.aspx" />
+    <Content Include="RecordReferralPurchase.aspx" />
+    <Content Include="ReturnBooks.aspx" />
+    <Content Include="SearchIUPUI.aspx" />
+    <Content Include="SellBooks.aspx" />
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\FREE3OF9.TTF" />
+    <None Include="ta_receipt_f.tex" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="lib\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>49691</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

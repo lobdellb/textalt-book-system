@@ -1,0 +1,6 @@
+D:\lobdellb\LobdellLLC\bookstore_software\SoutheasternImport\SoutheasternImport\obj\Debug\ResolveAssemblyReference.cache
+D:\lobdellb\LobdellLLC\bookstore_software\SoutheasternImport\SoutheasternImport\bin\Debug\SoutheasternImport.exe.config
+D:\lobdellb\LobdellLLC\bookstore_software\SoutheasternImport\SoutheasternImport\bin\Debug\SoutheasternImport.exe
+D:\lobdellb\LobdellLLC\bookstore_software\SoutheasternImport\SoutheasternImport\bin\Debug\SoutheasternImport.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\SoutheasternImport\SoutheasternImport\obj\Debug\SoutheasternImport.exe
+D:\lobdellb\LobdellLLC\bookstore_software\SoutheasternImport\SoutheasternImport\obj\Debug\SoutheasternImport.pdb

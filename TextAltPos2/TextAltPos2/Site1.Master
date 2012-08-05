@@ -1,0 +1,266 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TextAltPos.MasterPage1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Textbook Alternative</title>
+    
+    <script src="/assets/jquery-1.6.4.js"></script>
+    <script src="/assets/jquery.validate.js"></script>
+    
+<%--    <script src="~/assets/parsestripe.js" type="text/javascript"></script>
+    <script src="~/assets/pay_books_scr.js" type="text/javascript"></script>--%>
+
+
+    
+    <!-- <link href="~/css/2c-hd-flex-layout.css" rel="stylesheet" type="text/css" /> -->
+    <style type="text/css">
+        
+        body{
+            margin: 10px 10px 10px 20px;
+            padding: 0;     
+            background-color:#dddddd;
+        }
+        
+        
+      /*  div.the-gridview 
+        {
+        	float:left;
+        	width: auto;
+        } */
+        
+        #lh-col { float: left;
+                  padding: 0 0 0 0; 
+                  width: auto;
+                   }
+                   
+        #rh-col { float: right;
+                  width: 200px;
+                  padding: 10px 5px 30px 10px;
+                  background-color: White;
+                  border:2px solid black;
+                  top:0;
+                  z-index:100;
+                  
+                  
+        }
+                 
+        #topstuff  
+        {
+            padding: 0 0 20px 0;
+        }
+        
+        .menu-wrapper 
+        {
+            float:right;
+            width:200px;
+            border:3px solid black;
+            background-color:White;
+        
+        	overflow:hidden;
+           	position:relative;
+            top:-170px;
+            padding-left:5px;
+            z-index:50;
+        }
+        
+        .menu-wrapper:hover li.show-on-hover
+        {
+        	display:block;
+        }
+        
+        .menu-wrapper:hover li.elipsis
+        {
+        	display:none;
+        }
+        
+        
+        .show-on-hover
+        {
+        	display:none;
+        } 
+        
+     /*   .show-on-hover:hover
+        {
+        	display:block;
+        } */
+         
+        .elipsis 
+        {
+        	/* margin-top:0px; */
+        	font-weight:bolder;
+        	font-size:medium;
+        	
+        }
+       
+        
+        ul.top-ul a 
+        {
+        	font-weight:normal;
+            color:Blue;
+        }
+       
+        ul.top-ul a:hover
+        {
+        	color:Red;
+        }
+        
+       
+        ul
+        {
+        	list-style:none;
+        	list-style-type:none;
+        	padding-left:0px;
+        	font-weight:bold;
+        }     
+        
+        li li
+        {
+            padding-left:15px;	
+     	
+        }
+        
+           
+        
+/*        li li  
+        {
+        	background-color:Green; 
+            list-style:none;
+            list-style-type:none;
+            margin-left:0px;
+            padding-left:0px;
+            text-indent:0em;
+            padding:0px;
+        }          
+                  
+        li li li { margin-left:0px; }
+  */                
+    </style>
+    
+    
+    <script type="text/javascript">
+    
+    
+    function togglemenu()
+    {
+    
+        if ( menuvisible )
+            hidemenu();
+        else
+            showmenu();
+    
+    
+    }
+    
+    function hidemenu()
+    {
+        document.getElementById('rh-col').style.display='none';
+        document.getElementById('togglelink').innerHTML = '&lt;&lt;Show Menu&gt&gt';
+        menuvisible = false;
+    }
+    
+    
+    function showmenu()
+    {
+        document.getElementById('rh-col').style.display='inherit';
+        document.getElementById('togglelink').innerHTML = '&lt;&lt;Hide Menu&gt&gt';
+    
+        menuvisible = true;
+    }
+    
+    menuvisible = true;
+    
+    
+    </script>
+    
+    
+</head>
+<body>
+
+<div id="topstuff" >
+    <asp:Image ID="Image2" runat="server" ImageUrl="~/assets/pos_screen.gif" /><br />
+</div>
+    <!--a id="togglelink" style="font-size:larger;font-weight:bold;color:Maroon;" onclick="togglemenu();">&lt;&lt;Hide Menu&gt&gt</a><br /><br /-->
+
+    
+    <form id="form1" runat="server">
+    
+
+        
+        <!--div id="rh-col" -->
+ 
+               
+    <div class="menu-wrapper">
+        <ul class="top-ul">
+            <li><span>Cash Register</span>
+                <ul>
+                    <li><a href="<% WriteApplicationPath(); %>/PointOfSale/BuyBooks.aspx" >Buy Books</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/PointOfSale/SellBooks.aspx" >Sell Stuff</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/PointOfSale/ReturnBooks.aspx" >Return Stuff</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/PointOfSale/ReturnRental.aspx" >Return Rental</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/PointOfSale/ValidateRentalReturnReceipt.aspx" >Validate Rental Return</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/PointOfSale/Validate.aspx" >Validate Number</a></li>
+                </ul>    
+            </li>
+            <li class="show-on-hover"><span>Inventory</span>
+                <ul>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/EditProf.aspx" >Professors</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/AddBook.aspx" >Add Book</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/EditBook.aspx" >Edit Books</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/CheckIn.aspx" >Check In</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/CheckOut.aspx" >Check Out</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/SetInventory.aspx" >Change Inventory</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/EditPosItems.aspx" >Custom Items</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/AuditWholeSale.aspx" >Audit Wholesale</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/History.aspx" >History</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/BookHistory.aspx" >History by Book</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/InventoryMgmt/CatalogImport.aspx" >Catalog Import</a></li>
+                    <!--p><a href="<% WriteApplicationPath(); %>/InventoryMgmt/QueryBookrenter.aspx" >Query Bookrenter</a></p-->
+                </ul>
+            </li>
+            <li class="show-on-hover"><span>Search</span>
+                <ul>
+                    <li><a href="<% WriteApplicationPath(); %>/Search/SearchIUPUI.aspx" >Search</a></li>
+                </ul>
+            </li>
+            <li class="show-on-hover"><span>Reports</span>
+                <ul>
+                    <li><a href="<% WriteApplicationPath(); %>/Reporting/BrowseReports.aspx" >General Reports</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/Reporting/DailyReport.aspx" >Daily Report</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/Reporting/MasterReport.aspx" >Master Report</a></li>
+                </ul>
+            </li>
+            <li class="show-on-hover"><span>Utility</span>
+                <ul>
+                    <li><a href="<% WriteApplicationPath(); %>/Utility/AddressLabel.aspx" >Print Address Label</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/Utility/Sort.aspx" >Sort & Print Barcode</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/Default.aspx" >Info</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/Utility/SpecialOrders.aspx" >Special Orders</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/Utility/Orders.aspx" >Order Manager</a></li>
+                    <li><a href="<% WriteApplicationPath(); %>/Utility/ImportNebraska.aspx" >Import Nebraska List</a></li>
+                </ul>
+            </li>
+            <li class="elipsis">&#8230;</li>
+        </ul>
+    </div>
+            
+            
+        <!--/div-->
+    
+    
+    <!--/span-->
+    
+    
+        <!-- span id="lh-col" style="height:600px;"-->
+            
+            <asp:ContentPlaceHolder id="MainContent" runat="server">
+                    
+            </asp:ContentPlaceHolder>
+        <!--/span -->
+        
+    
+    
+    </form>
+</body>
+</html>

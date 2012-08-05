@@ -1,0 +1,81 @@
+Book System Todo
+	TextAltStu
+		--Fix theme/colors
+		--Add global error handling.
+		--Fix totals in LookupIsbn
+		--Install on .54 machine
+		--Change links to fit actual location
+		--Add B&N link to LookupIsbn
+		--Add titles to all screens
+		--Fix grammar errors
+		--Add recording of which classes are searched for.
+		--put links in web.config
+		--change verbage in email to the referer
+		
+
+	NewBookSystem
+		Strange phantom sale transaction error where books disappear on 2nd transaction.
+		--Fix the falsly-refund-credit-card-on-void problem
+		Look into phatom book issue
+		-- Credit Card Processing	
+		Change the reciept to use the new doc thing.
+		--override for return date
+		-- add book info button using javascript for sell screen
+		Look into issue with new/used ddl not changing
+		--Move "void" button
+		--Fix 100x error on the daily report returns
+		XX Move student side to .54 machine.
+		--Change session timeout to fix issue.
+		
+		copy database to my laptop
+		
+		-- Load Follett
+
+		--Turn down buy-numbers as school day passes
+		-- add BN new price to sell screen
+		-- add returns to the master report and daily report	
+	
+		LL fix rounding error in return screen
+		--make it so the cash amount recorded is the amount after change, not the amount tendered
+		LL automatically fill in prices in the edit custom items screen
+		
+		--Return Screen
+		--Add "items" table editor
+		--Screen for settling store credit
+		--Screen for viewing elligibility of store credit
+		--Fix .tex file location issue		
+		LL obviated for now, Handle case when different product numbers have the same isbn
+		--add page title for the "record referral" page
+		--add new links to menu
+		--new return date logic
+		LL fix default <CR> and/or postback behavior on some pages
+		LL add description/instructions to the custom items page
+		--change verbage on receipt for return policy
+		--add returned books to inventory
+
+
+
+	
+	Database
+		--Copy new iupui_t_referral table to the test database, and the local database on the laptop
+		--Copy the log_t_studentsearchlog
+		
+		
+	General
+		Email professors
+		--Setup facebook
+		--Setup college displays
+		--Setup TextAlt home page
+		--Chalk board cards
+		
+		
+	Rush hours
+	8a - 8p, all days
+	from now until Monday the 18th
+	
+	
+	
+	
+	
+	
+		

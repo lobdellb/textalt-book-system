@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetextImport", "BudgetextImport\BudgetextImport.csproj", "{A8583BC8-EA27-4F8F-B888-715AB49623A2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BudgetextImportSetup", "BudgetextImportSetup\BudgetextImportSetup.vdproj", "{7BC2F33B-1944-4263-BAD8-E90AE8E4D78C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8583BC8-EA27-4F8F-B888-715AB49623A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8583BC8-EA27-4F8F-B888-715AB49623A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8583BC8-EA27-4F8F-B888-715AB49623A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8583BC8-EA27-4F8F-B888-715AB49623A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC2F33B-1944-4263-BAD8-E90AE8E4D78C}.Debug|Any CPU.ActiveCfg = Debug
+		{7BC2F33B-1944-4263-BAD8-E90AE8E4D78C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

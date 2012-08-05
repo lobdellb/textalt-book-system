@@ -1,0 +1,6 @@
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\bin\Release\BudgetextImport.exe.config
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\bin\Release\BudgetextImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\bin\Release\BudgetextImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\obj\Release\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\obj\Release\BudgetextImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\BudgetextImport\BudgetextImport\obj\Release\BudgetextImport.pdb

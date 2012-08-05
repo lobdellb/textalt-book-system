@@ -1,0 +1,5 @@
+C:\Users\lobdellb\bookstore_software\MojoeFeedback\MojoeFeedback\bin\MojoeFeedback.dll
+C:\Users\lobdellb\bookstore_software\MojoeFeedback\MojoeFeedback\bin\MojoeFeedback.pdb
+C:\Users\lobdellb\bookstore_software\MojoeFeedback\MojoeFeedback\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\bookstore_software\MojoeFeedback\MojoeFeedback\obj\Debug\MojoeFeedback.dll
+C:\Users\lobdellb\bookstore_software\MojoeFeedback\MojoeFeedback\obj\Debug\MojoeFeedback.pdb

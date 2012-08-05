@@ -1,0 +1,6 @@
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\CommonMethods\bin\Release\CommonMethods.dll
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\CommonMethods\bin\Release\CommonMethods.pdb
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\CommonMethods\bin\Release\HtmlAgilityPack.dll
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\CommonMethods\obj\Release\ResolveAssemblyReference.cache
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\CommonMethods\obj\Release\CommonMethods.dll
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\CommonMethods\obj\Release\CommonMethods.pdb

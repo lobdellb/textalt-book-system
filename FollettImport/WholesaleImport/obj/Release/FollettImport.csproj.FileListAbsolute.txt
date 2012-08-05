@@ -1,0 +1,12 @@
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\bin\Release\WholesaleImport.exe.config
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\bin\Release\WholesaleImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\bin\Release\WholesaleImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Release\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Release\WholesaleImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Release\WholesaleImport.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\bin\Release\WholesaleImport.exe.config
+D:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Release\WholesaleImport.exe
+D:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Release\WholesaleImport.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\obj\Release\ResolveAssemblyReference.cache
+D:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\bin\Release\WholesaleImport.exe
+D:\lobdellb\LobdellLLC\bookstore_software\FollettImport\WholesaleImport\bin\Release\WholesaleImport.pdb

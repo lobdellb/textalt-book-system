@@ -1,0 +1,52 @@
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NewBookSystem\NewBookSystem\bin\NewBookSystem.dll
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NewBookSystem\NewBookSystem\bin\NewBookSystem.pdb
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NewBookSystem\NewBookSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NewBookSystem\NewBookSystem\obj\Debug\NewBookSystem.dll
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NewBookSystem\NewBookSystem\obj\Debug\NewBookSystem.pdb
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NewBookSystem\NewBookSystem\bin\DiffieHellman.dll
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NewBookSystem\NewBookSystem\bin\Org.Mentalis.Security.dll
+C:\Users\lobdellb\Documents\Visual Studio 2008\Projects\NewBookSystem\NewBookSystem\bin\Tamir.SharpSSH.dll
+C:\Users\lobdellb\bookstore_software\blah\NewBookSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\bookstore_software\blah\NewBookSystem\obj\Debug\NewBookSystem.dll
+C:\Users\lobdellb\bookstore_software\blah\NewBookSystem\obj\Debug\NewBookSystem.pdb
+C:\Users\lobdellb\bookstore_software\blah\NewBookSystem\bin\NewBookSystem.dll
+C:\Users\lobdellb\bookstore_software\blah\NewBookSystem\bin\NewBookSystem.pdb
+C:\Users\lobdellb\bookstore_software\blah\NewBookSystem\bin\DiffieHellman.dll
+C:\Users\lobdellb\bookstore_software\blah\NewBookSystem\bin\Org.Mentalis.Security.dll
+C:\Users\lobdellb\bookstore_software\blah\NewBookSystem\bin\Tamir.SharpSSH.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\NewBookSystem.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\NewBookSystem.pdb
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\DiffieHellman.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\HtmlAgilityPack.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\Org.Mentalis.Security.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\Tamir.SharpSSH.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\obj\Debug\NewBookSystem.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\obj\Debug\NewBookSystem.pdb
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\MigraDoc.DocumentObjectModel.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\MigraDoc.Rendering.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\PdfSharp.Charting.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\PdfSharp.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\PdfSharp.xml
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\PdfSharp.Charting.xml
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\MigraDoc.DocumentObjectModel.xml
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\MigraDoc.Rendering.xml
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\de\PdfSharp.resources.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\de\MigraDoc.DocumentObjectModel.resources.dll
+C:\Users\lobdellb\bookstore_software\NewBookSystem\NewBookSystem\bin\de\MigraDoc.Rendering.resources.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\PdfSharp.xml
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\MigraDoc.DocumentObjectModel.xml
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\MigraDoc.Rendering.xml
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\NewBookSystem.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\NewBookSystem.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\obj\Debug\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\obj\Debug\NewBookSystem.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\obj\Debug\NewBookSystem.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\MigraDoc.DocumentObjectModel.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\MigraDoc.Rendering.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\PdfSharp.Charting.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\PdfSharp.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\PdfSharp.Charting.xml
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\de\PdfSharp.resources.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\de\MigraDoc.DocumentObjectModel.resources.dll
+F:\lobdellb\LobdellLLC\bookstore_software\NewBookSystem\NewBookSystem\bin\de\MigraDoc.Rendering.resources.dll

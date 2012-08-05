@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FollettImport", "WholesaleImport\FollettImport.csproj", "{B5490DF7-6095-469A-BBC3-867D61529FBF}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FollettImportSetup", "FollettImportSetup\FollettImportSetup.vdproj", "{BBF9AC16-835B-48EB-A58F-7C560AFBB9DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5490DF7-6095-469A-BBC3-867D61529FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5490DF7-6095-469A-BBC3-867D61529FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5490DF7-6095-469A-BBC3-867D61529FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5490DF7-6095-469A-BBC3-867D61529FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF9AC16-835B-48EB-A58F-7C560AFBB9DE}.Debug|Any CPU.ActiveCfg = Debug
+		{BBF9AC16-835B-48EB-A58F-7C560AFBB9DE}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

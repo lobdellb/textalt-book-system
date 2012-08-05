@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="NewBookSystem.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Textbook Alternative</title>
+
+<%--    <script src="~/assets/parsestripe.js" type="text/javascript"></script>
+    <script src="~/assets/pay_books_scr.js" type="text/javascript"></script>--%>
+
+
+    
+    <link href="~/css/2c-hd-flex-layout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    
+        <span id="lh-col" style="height:600px;">
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/assets/pos_screen.gif" /><br /><br />
+            <asp:ContentPlaceHolder id="MainContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </span>
+        
+        <span id="rh-col" >
+        
+            <h3>
+                <asp:TreeView ID="TreeView1" runat="server" 
+                    onselectednodechanged="TreeView1_SelectedNodeChanged">
+                    <DataBindings>
+                        <asp:TreeNodeBinding DataMember="Id" TextField="#InnerText"  />
+                        <asp:TreeNodeBinding DataMember="Tite" TextField="#InnerText" />
+                        <asp:TreeNodeBinding DataMember="PageUrl" TextField="#InnerText" />
+                    </DataBindings>
+                    <Nodes>
+                        <asp:TreeNode Expanded="True" Text="Cash Register" Value="Cash Register">
+                            <asp:TreeNode NavigateUrl="~/PointOfSale/BuyBooks.aspx" Text="Buy Books" 
+                                Value="Buy Books"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/PointOfSale/SellBooks.aspx" Text="Sell Stuff" 
+                                Value="Sell Stuff"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/PointOfSale/ReturnBooks.aspx" Text="Return Stuff" 
+                                Value="Return Stuff"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/PointOfSale/ReturnRental.aspx" 
+                                Text="Return Rental" Value="Return Rental"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Inventory" Value="Inventory">
+                            <asp:TreeNode NavigateUrl="~/InventoryMgmt/EditProf.aspx" Text="Professors" 
+                                Value="Professors"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/InventoryMgmt/EditBook.aspx" Text="Books" 
+                                Value="Books"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/InventoryMgmt/CheckIn.aspx" Text="Check In" 
+                                Value="Check In"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/InventoryMgmt/CheckOut.aspx" Text="Check Out" 
+                                Value="Check Out"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/InventoryMgmt/SetInventory.aspx" 
+                                Text="Change Inventory" Value="Change Inventory"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/InventoryMgmt/EditPosItems.aspx" 
+                                Text="Custom Items" Value="Custom Items"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/InventoryMgmt/AuditWholeSale.aspx" 
+                                Text="Audit Wholesale" Value="Audit Wholesale"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Search" Value="Search">
+                            <asp:TreeNode NavigateUrl="~/Search/SearchIUPUI.aspx" Text="Search" 
+                                Value="Search"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Reports" Value="Reports">
+                            <asp:TreeNode NavigateUrl="~/Reporting/BrowseReports.aspx" Text="General Reports" 
+                                Value="General Reports"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Reporting/DailyReport.aspx" Text="Daily Report" 
+                                Value="Daily Report"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Reporting/MasterReport.aspx" Text="Master Report" 
+                                Value="Master Report"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Utility" Value="Utility">
+                            <asp:TreeNode NavigateUrl="~/Utility/AddressLabel.aspx" 
+                                Text="Print Address Label" Value="Print Label"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Utility/Sort.aspx" Text="Sort &amp; Print Barcode" 
+                                Value="Print Barcode"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Default.aspx" Text="Info" Value="Info">
+                            </asp:TreeNode>
+                        </asp:TreeNode>
+                    </Nodes>
+                </asp:TreeView>
+            </h3>       
+        </span>
+    
+    </form>
+</body>
+</html>

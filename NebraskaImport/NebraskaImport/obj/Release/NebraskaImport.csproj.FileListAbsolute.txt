@@ -1,0 +1,7 @@
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\bin\Release\NebraskaImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\bin\Release\NebraskaImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\obj\Release\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\obj\Release\NebraskaImport.exe
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\obj\Release\NebraskaImport.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\bin\Release\NebraskaImport.exe.config
+F:\lobdellb\LobdellLLC\bookstore_software\NebraskaImport\NebraskaImport\bin\Release\App.config

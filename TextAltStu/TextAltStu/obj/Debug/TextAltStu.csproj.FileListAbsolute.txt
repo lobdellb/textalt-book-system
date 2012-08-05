@@ -1,0 +1,16 @@
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\TextAltStu.dll
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\TextAltStu.pdb
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\obj\Debug\TextAltStu.dll
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\obj\Debug\TextAltStu.pdb
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\MigraDoc.DocumentObjectModel.dll
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\MigraDoc.Rendering.dll
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\PdfSharp.Charting.dll
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\PdfSharp.dll
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\PdfSharp.xml
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\PdfSharp.Charting.xml
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\MigraDoc.DocumentObjectModel.xml
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\MigraDoc.Rendering.xml
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\de\PdfSharp.resources.dll
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\de\MigraDoc.DocumentObjectModel.resources.dll
+C:\Users\lobdellb\bookstore_software\TextAltStu\TextAltStu\bin\de\MigraDoc.Rendering.resources.dll

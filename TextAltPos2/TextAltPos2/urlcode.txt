@@ -1,0 +1,104 @@
+﻿
+        public static string GetApplicationPath(HttpRequest Request)
+        {
+            // string ApplicationPath = Request.Url.ToString();
+            //ApplicationPath = ApplicationPath.Substring(0, ApplicationPath.Length - Request.Url.PathAndQuery.Length) + "/";
+
+
+            // OriginalString: "http://localhost:60546/default.aspx?sadklasjdhfl"
+            // PathAndQuery: "/default.aspx?sadklasjdhfl"
+            string OrigRequestUrl = Request.Url.OriginalString;
+
+            OrigRequestUrl = OrigRequestUrl.Substring(OrigRequestUrl.IndexOf("//"));
+            OrigRequestUrl = OrigRequestUrl.Substring(OrigRequestUrl.IndexOf("/"));
+
+            // Now includes the app path, if it exists.  Next we can remove the application path.
+
+
+
+
+            string ServiceType;
+
+            if (Request.ServerVariables["HTTPS"] == "on")
+                ServiceType = "https://";
+            else
+                ServiceType = "http://";
+
+            string ServerPort = Request.ServerVariables["SERVER_PORT"];
+            if ((ServerPort != "80") | (ServerPort != "443"))
+                ServerPort = ":" + ServerPort;
+
+            string ServerHost = Request.ServerVariables["HTTP_X_FORWARDED_HOST"];
+
+            if (ServerHost == null)
+                ServerHost = Request.ServerVariables["HTTP_HOST"];
+            else
+                ServerHost += ServerPort;
+
+            ApplicationPath = ServiceType + ServerHost + Request.ApplicationPath ;
+
+
+            // string ApplicationPath = Request.Url.OriginalString;
+            // ApplicationPath = ApplicationPath.Substring(0, ApplicationPath.Length - Request.Url.PathAndQuery.Length) + "/";
+
+            
+
+            //string ApplicationPath = "http://" + Request.Headers["Host"] + "/";
+
+            return ApplicationPath;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+                // Test to see whether or not we're behind a reverse proxy
+
+                string Temp = OriginalString;
+                Temp = Temp.Substring(Temp.IndexOf("//")+2); // remove stuff before first slash
+                Temp = Temp.Substring(Temp.IndexOf("/")+1);  // remove stuff before second slash
+
+                // Now test to see wether the next dir is the application path
+
+                if ( AppPath == Temp.Substring(0,AppPath.Length) )
+                {
+                    // not behind a reverse proxy
+                    // return orignal string minus the aspx file name/path
+
+                    string PathToRemove = string.Empty;
+
+                    for (int I = 2 ; I < Segments.Length; I++)
+                        PathToRemove += Segments[I];
+
+                    ApplicationPath = OriginalString;
+                    ApplicationPath = ApplicationPath.Substring(0,ApplicationPath.IndexOf(PathToRemove));
+
+                }
+                else
+                {
+                    // behind the reverse proxy
+                    // return the original string, minus t
+
+                    string PathToRemove = string.Empty;
+
+                    for (int I = 2 ; I < Segments.Length; I++)
+                        PathToRemove += Segments[I];
+
+                    ApplicationPath = OriginalString;
+                    ApplicationPath = ApplicationPath.Substring(0,ApplicationPath.IndexOf(PathToRemove));
+
+                }
+
+

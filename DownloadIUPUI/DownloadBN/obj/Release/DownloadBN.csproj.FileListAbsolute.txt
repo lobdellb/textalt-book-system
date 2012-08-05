@@ -1,0 +1,12 @@
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\bin\Release\DownloadBN.exe.config
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\bin\Release\DownloadBN.exe
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\bin\Release\DownloadBN.pdb
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\bin\Release\CommonMethods.dll
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\bin\Release\HtmlAgilityPack.dll
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\bin\Release\CommonMethods.pdb
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\obj\Release\ResolveAssemblyReference.cache
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\obj\Release\DownloadBN.exe
+C:\Users\lobdellb\bookstore_software\DownloadIUPUI\DownloadBN\obj\Release\DownloadBN.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\DownloadIUPUI\DownloadBN\bin\Release\DownloadBN.exe.config
+F:\lobdellb\LobdellLLC\bookstore_software\DownloadIUPUI\DownloadBN\obj\Release\DownloadBN.exe
+F:\lobdellb\LobdellLLC\bookstore_software\DownloadIUPUI\DownloadBN\obj\Release\DownloadBN.pdb

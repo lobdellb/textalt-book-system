@@ -1,0 +1,112 @@
+#!/bin/bash
+
+# shell script to:
+# 1)  Download registrar database
+# 2)  Download textbook database
+# 3)  If #1 successful cook the registrar info, and backup off site.
+# 4)  If #2 successful cook the textbook info, and backup off site.
+# 5)  Backup the previous running db off site.
+# 6)  If #1 and #2 successful, run the running database update program.
+
+# assume this script will be run from the correct dir
+
+LOG_DIR="../database"
+
+cd /home/lobdellb/bookstore_software/textbook_list_v3/download_dbs
+
+echo "Started daily activities at $(date)" >>  ${LOG_DIR}/journal.txt
+
+if [[ -e bncollege_good_exit_status.mat ]]
+then
+   rm bncollege_good_exit_status.mat
+fi
+
+if [[ -e registrar_good_exit_status.mat ]]
+then
+   rm registrar_good_exit_status.mat
+fi
+
+
+
+# 1)
+echo "-----------------------------------------------------------------------" >  ${LOG_DIR}/textbook_download_today.log
+echo " Book Download log on $(date) " >>  ${LOG_DIR}/textbook_download_today.log
+echo "-----------------------------------------------------------------------" >>  ${LOG_DIR}/textbook_download_today.log
+octave -q --eval download_book_database2.m  >>  ${LOG_DIR}/textbook_download_today.log
+cat textbook_download_today.log >>  ${LOG_DIR}/textbook_download.log
+
+# 2)
+echo "-----------------------------------------------------------------------" >  ${LOG_DIR}/registrar_download_today.log
+echo " Registrar Download log on $(date) " >>  ${LOG_DIR}/registrar_download_today.log
+echo "-----------------------------------------------------------------------" >>  ${LOG_DIR}/registrar_download_today.log
+octave -q --eval download_registrar_database.m >>  ${LOG_DIR}/registrar_download_today.log
+cat registrar_download_today.log >>  ${LOG_DIR}/registrar_download.log
+
+
+
+
+if [[ -e bncollege_good_exit_status.mat ]]
+then
+
+   echo Found bncollege_good_exit_status.mat
+   octave -q --eval cook_textbook_database.m
+
+   # download data to off site
+
+
+else
+
+   echo Didnt Found bncollege_good_exit_status.mat
+   sendEmail -f book-daemon@textalt.com -t lobdellb@gmail.com -u "Book download failure $(date)" -s $(cat smtp_server) -l email_send_log.txt -o message-file=textbook_download_today.log
+
+
+
+fi
+
+
+
+
+if [[ -e registrar_good_exit_status.mat ]]
+then
+
+   echo Found registrar_good_exit_status.mat
+   octave -q --eval cook_registrar_database.m
+
+   # download data to off site
+
+
+else
+
+   echo Didnt Found registrar_good_exit_status.mat
+   sendEmail -f book-daemon@textalt.com -t lobdellb@gmail.com -u "Registrar download failure $(date)" -s $(cat smtp_server) -l email_send_log.txt -o message-file=registrar_download_today.log
+
+
+fi
+
+
+# Now we need to run "master_update"
+
+
+
+if [[ -e registrar_good_exit_status.mat && -e bncollege_good_exit_status.mat ]]
+then
+
+   cd /home/lobdellb/bookstore_software/textbook_list_v3/daily_update
+
+   # then we should run the master update
+   octave -q --eval master_update.m
+
+fi
+
+
+
+
+
+
+
+
+
+
+# next step is to add the new data to the running database, and this is going to be complicated shit
+
+echo "Finished Daily Activities at $(date)" >>  ${LOG_DIR}/journal.txt

@@ -1,0 +1,7 @@
+Oct 07 14:48:29 joseph sendEmail[4681]: ERROR => Received: 	550 5.1.0 Authentication required
+Oct 07 15:09:11 joseph sendEmail[5144]: Email was sent successfully!  From: <book-daemon@textalt.com> To: <lobdellb@gmail.com> Subject: [Book download failure Tue Oct  7 15:09:11 CDT 2008] Server: [express-smtp.cites.uiuc.edu:25]
+Oct 07 15:09:12 joseph sendEmail[5148]: Email was sent successfully!  From: <book-daemon@textalt.com> To: <lobdellb@gmail.com> Subject: [Registrar download failure Tue Oct  7 15:09:11 CDT 2008] Server: [express-smtp.cites.uiuc.edu:25]
+Oct 08 11:18:47 joseph sendEmail[21203]: Email was sent successfully!  From: <book-daemon@textalt.com> To: <lobdellb@gmail.com> Subject: [Book download failure Wed Oct  8 11:18:46 CDT 2008] Server: [express-smtp.cites.uiuc.edu:25]
+Oct 08 11:18:48 joseph sendEmail[21206]: Email was sent successfully!  From: <book-daemon@textalt.com> To: <lobdellb@gmail.com> Subject: [Registrar download failure Wed Oct  8 11:18:47 CDT 2008] Server: [express-smtp.cites.uiuc.edu:25]
+Oct 08 12:46:09 joseph sendEmail[25973]: Email was sent successfully!  From: <book-daemon@textalt.com> To: <lobdellb@gmail.com> Subject: [Book download failure Wed Oct  8 12:46:06 CDT 2008] Server: [express-smtp.cites.uiuc.edu:25]
+Oct 09 09:49:05 joseph sendEmail[23925]: ERROR => Connection attempt to express-smtp.cites.uiuc.edu:25 failed: IO::Socket::INET: connect: No route to host

@@ -1,0 +1,12 @@
+F:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\bin\Debug\Downloader.exe.config
+F:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\obj\Debug\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\bin\Debug\Downloader.exe
+F:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\bin\Debug\Downloader.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\obj\Debug\Downloader.exe
+F:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\obj\Debug\Downloader.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\bin\Debug\Downloader.exe.config
+D:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\obj\Debug\Downloader.exe
+D:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\obj\Debug\Downloader.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\bin\Debug\Downloader.exe
+D:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\bin\Debug\Downloader.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\Downloader\Downloader\obj\Debug\ResolveAssemblyReference.cache

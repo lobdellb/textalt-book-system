@@ -1,0 +1,12 @@
+D:\lobdellb\LobdellLLC\bookstore_software\RentalReminder\RentalReminder\RentalReminder\obj\Debug\ResolveAssemblyReference.cache
+D:\lobdellb\LobdellLLC\bookstore_software\RentalReminder\RentalReminder\RentalReminder\bin\Debug\RentalReminder.exe.config
+D:\lobdellb\LobdellLLC\bookstore_software\RentalReminder\RentalReminder\RentalReminder\bin\Debug\RentalReminder.exe
+D:\lobdellb\LobdellLLC\bookstore_software\RentalReminder\RentalReminder\RentalReminder\bin\Debug\RentalReminder.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\RentalReminder\RentalReminder\RentalReminder\obj\Debug\RentalReminder.exe
+D:\lobdellb\LobdellLLC\bookstore_software\RentalReminder\RentalReminder\RentalReminder\obj\Debug\RentalReminder.pdb
+C:\Users\Bryce Lobdell\Software\bookstore_software\RentalReminder\RentalReminder\bin\Debug\RentalReminder.exe.config
+C:\Users\Bryce Lobdell\Software\bookstore_software\RentalReminder\RentalReminder\obj\Debug\RentalReminder.exe
+C:\Users\Bryce Lobdell\Software\bookstore_software\RentalReminder\RentalReminder\obj\Debug\RentalReminder.pdb
+C:\Users\Bryce Lobdell\Software\bookstore_software\RentalReminder\RentalReminder\bin\Debug\RentalReminder.exe
+C:\Users\Bryce Lobdell\Software\bookstore_software\RentalReminder\RentalReminder\bin\Debug\RentalReminder.pdb
+C:\Users\Bryce Lobdell\Software\bookstore_software\RentalReminder\RentalReminder\obj\Debug\ResolveAssemblyReference.cache

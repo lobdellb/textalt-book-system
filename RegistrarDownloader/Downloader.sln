@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Downloader", "Downloader\Downloader.csproj", "{C2DF0BE3-A430-43E6-9545-74F08AAED1EE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DownloadInstaller", "DownloadInstaller\DownloadInstaller.vdproj", "{DD61E469-0274-4405-8071-F4167CEADCBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DF0BE3-A430-43E6-9545-74F08AAED1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DF0BE3-A430-43E6-9545-74F08AAED1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DF0BE3-A430-43E6-9545-74F08AAED1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DF0BE3-A430-43E6-9545-74F08AAED1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD61E469-0274-4405-8071-F4167CEADCBD}.Debug|Any CPU.ActiveCfg = Debug
+		{DD61E469-0274-4405-8071-F4167CEADCBD}.Release|Any CPU.ActiveCfg = Release
+		{DD61E469-0274-4405-8071-F4167CEADCBD}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

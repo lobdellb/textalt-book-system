@@ -1,0 +1,6 @@
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Release\EmailProfs.exe.config
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Release\EmailProfs.exe
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\bin\Release\EmailProfs.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Release\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Release\EmailProfs.exe
+F:\lobdellb\LobdellLLC\bookstore_software\EmailProfs2\EmailProfs\obj\Release\EmailProfs.pdb

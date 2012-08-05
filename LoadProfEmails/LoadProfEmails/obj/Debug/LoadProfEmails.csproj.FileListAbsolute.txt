@@ -1,0 +1,12 @@
+F:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\bin\Debug\LoadProfEmails.exe.config
+F:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\bin\Debug\LoadProfEmails.exe
+F:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\bin\Debug\LoadProfEmails.pdb
+F:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\obj\Debug\ResolveAssemblyReference.cache
+F:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\obj\Debug\LoadProfEmails.exe
+F:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\obj\Debug\LoadProfEmails.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\bin\Debug\LoadProfEmails.exe.config
+D:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\obj\Debug\LoadProfEmails.exe
+D:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\obj\Debug\LoadProfEmails.pdb
+D:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\obj\Debug\ResolveAssemblyReference.cache
+D:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\bin\Debug\LoadProfEmails.exe
+D:\lobdellb\LobdellLLC\bookstore_software\LoadProfEmails\LoadProfEmails\bin\Debug\LoadProfEmails.pdb

@@ -1,0 +1,78 @@
+
+Wholesale value = $34,863.25
+
+Let's make:
+
+1) A list of books which have no wholesale value.
+
+select * from
+  newtextalt.iupui_books iupui join
+  (select int_isbn9,num
+      from inv_count
+      left join
+
+      (select isbn9,max(usedoffer) mua
+          from newtextalt.wholesalebook
+          where '2009-09-19'
+          between start_date and end_date
+          group by isbn9
+          ) wb
+
+       on wb.isbn9 = int_isbn9
+       where mua is null
+   ) ubm
+
+   on iupui.isbn9 = ubm.int_isbn9;
+
+2) A list of all books with wholesale value.
+
+as above, except "is null" --> not null
+
+4) A list of books for courses which are not offered next semester.
+
+-- Get list of courses offered in season_key = 4;
+insert into newtextalt.tmp_courselist (course)
+  select distinct( concat(dept_name,str) ) from newtextalt.sections
+        join newtextalt.course cls on course_key= cls.pk
+        join newtextalt.department dpt on dept_key = dpt.pk
+        where season_key = 4;
+
+
+-- List of all classes associated with all books in inventory
+insert into newtextalt.tmp_ininventory (isbn9, title, author, publisher, edition, newpr, usedpr, isbn, course )
+select int_isbn9, title, author, publisher, edition, new_price, used_price, isbn, concat( dept_name, str )
+  from inventory.inv_count ivc
+  left join newtextalt.iupui_books iupui on ivc.isbn9 = iupui.isbn9
+  left join newtextalt.iupui_book_vs_section bvs on iupui.pk = bvs.book_key
+  join newtextalt.sections secs on secs.pk = bvs.section_key
+  join newtextalt.course cls on secs.course_key = cls.pk
+  join newtextalt.department dpt on dept_key = dpt.pk;
+
+
+select distinct isbn,title,author,publisher,edition, newpr/100, usedpr/100, a.course, ( num * ( newpr + usedpr ) * 0.5 * 0.33 / 100 )
+  from tmp_ininventory a
+  left join tmp_courselist b on a.course = b.course
+  join inventory.inv_count on a.isbn9 = inventory.inv_count.int_isbn9
+  where b.course is null order by course;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      );
